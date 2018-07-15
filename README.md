@@ -1,4 +1,4 @@
-# CSCD439Lab1
+# Machine Learning with Pytorch and Tensorflow
 ## Evan Gordon
 
 ## Introduction
