@@ -57,23 +57,18 @@ I do not claim ownership to anything within this file, it was re-uploaded and ed
 	pip install keras
 	pip install -U nltk
 	pip install spacy
-	```
-	
-10. Install pytorch:
-	```
+	#tensorflow
+	pip install --updgrade tensorflow	
+	#pytorch
 	pip install -U torch torchvision
 	```
-11. Install tensorflow:
-	```
-	pip install -U tensorflow
-	```
-12. Install ipython and jupyter:
+10. Install ipython and jupyter:
 
 	```
 	pip install -U ipython jupyter
 	```
 
-13. Test using jupyter notebook.  
+11. Test using jupyter notebook.  
 
 	First go to the test folder and create a notebook folder. then run jupyter
 
