@@ -53,14 +53,14 @@ I do not claim ownership to anything within this file, it was re-uploaded and ed
 	pip install -U scikit-learn
 	pip install -U matplotlib
 	#install natural language tools
-	pip install --upgrade tensorflow
-	pip install keras
 	pip install -U nltk
 	pip install spacy
 	#tensorflow
 	pip install --updgrade tensorflow	
 	#pytorch
 	pip install -U torch torchvision
+	#keras
+	pip install keras
 	```
 10. Install ipython and jupyter:
 
