@@ -1,6 +1,6 @@
 # Foreword:
 Original setup instructions from https://github.com/JoeDumoulin
-I do not claim ownership to anything within this file, it was re-uploaded here for future reference.
+I do not claim ownership to anything within this file, it was re-uploaded and edited here for future reference.
 
 
 # CSCD439 - Fall 2017
@@ -23,23 +23,29 @@ I do not claim ownership to anything within this file, it was re-uploaded here f
 	
 4. Install [Guest Additions](https://www.virtualbox.org/manual/ch04.html) in the ubuntu client.
 	
-5. Install git and prereqs for virtual environment:
+5. Install Pip:
+	```
+	curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+	```
+
+6. Install git and prereqs for virtual environment:
 
 	```
 	sudo apt-get git
 	sudo apt-get install build-essential python3-dev python3-setuptools python3-tk
 	```
 
-6. Install [python virtual environment](https://gist.github.com/FarhadurFahim/73c0fad6350332cef7a653bcd762f08d)
+7. Install [python virtual environment](https://gist.github.com/FarhadurFahim/73c0fad6350332cef7a653bcd762f08d)
 
-7. Create and activate a virtual environment for testing.
+8. Install virtualenv, then create and activate a virtual environment for testing.
 
 	```
-	virtualenv test
-	source testve/bin/activate
+	sudo pip install -U virtualenv
+	virtualenv <env_name>
+	source <env_name>/bin/activate
 	```
 	
-8. Now, in the virtual environment, install pandas, statsmodel, and scikit-learn.
+9. Now, in the virtual environment, install pandas, statsmodel, and scikit-learn.
 
 	```
 	pip install -U numpy scipy
@@ -53,18 +59,26 @@ I do not claim ownership to anything within this file, it was re-uploaded here f
 	pip install spacy
 	```
 	
-9. install ipython and jupyter.
+10. Install pytorch:
+	```
+	pip install -U torch torchvision
+	```
+11. Install tensorflow:
+	```
+	pip install -U tensorflow
+	```
+12. Install ipython and jupyter:
 
 	```
 	pip install -U ipython jupyter
 	```
 
-10. Test using jupyter notebook.  
+13. Test using jupyter notebook.  
 
 	First go to the test folder and create a notebook folder. then run jupyter
 
 	```
-	cd test
+	cd <env_name>
 	mkdir project
 	cd project
 	jupyter notebook
