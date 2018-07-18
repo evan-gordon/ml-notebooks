@@ -7,8 +7,8 @@ The Following documents contain work for CSCD 439 Machine Learning.
 
 ## Setup
 
-Original setup instructions from https://github.com/JoeDumoulin
-Found locally in setup.md
+Original setup instructions from https://github.com/JoeDumoulin<br/>
+Found locally in setup.md, with instructions for pytorch also included.
 
 ## Navigation
 
